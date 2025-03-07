@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML - Formulario</h1>
+    <form action=“https://www.w3schools.com/action_page.php”>
+        <p>Coloque a data atual:</p>
+        <input type="date"><br>
+        <p>Digite o seu usuário e senha:</p>
+        <label for="user">Usuario:</label><br>
+        <input type="text" id="user" name="user"><br>
+        <label for="password">Senha:</label><br>
+        <input type="password"><br>
+        <p>Digite seus dados pessoais:</p>
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name" name="name"<br> <br>
+        <label for="adress">Endereço:</label><br>
+        <input type="text" id="adress" name="adress"<br> <br>
+        <label for="number1">Numero:</label><br>
+        <input type="number"><br> 
+        <label for="complement">Complemento:</label><br>
+        <input type="text" id="complement" name="complement"><br>
+        <label for="city">Cidade:</label><br>
+        <input list="cities" name="city">
+        <datalist id="cities">
+        <option value="Sorocaba">
+        <option value="Rio de Janeiro">
+        <option value="Piaui">
+        <option value="Votoramtim">
+        <option value="Minas Gerais">
+        </datalist><br>
+        <label for="state">Estado:</label><br>
+        <select id="cars" name="cars">
+        <option value="sp">SP</option>
+        <option value="es">ES</option>
+        <option value="mg">MG</option>
+        <option value="ac">AC</option>
+        </select><br>
+        <label for="cep">CEP:</label><br>
+        <input type="number"><br>
+        <label for="gender">Gênero:</label><br>
+        <input type="radio" id="masculine" name="gender" value="Masculino" checked>
+        <label for="gender">Masculino</label><br>
+        <input type="radio" id="feminine" name="gender" value="Feminino">
+        <label for="gender">Feminino</label><br>
+        <input type="radio" id="prefer_not" name="gender" value="Prefiro não falar">
+        <label for="gender">Prefiro não falar</label> <br>
+        <label for="courses">Cursos:</label><br>
+        <input type="checkbox" id="course1" name="course1" value="ADS">
+        <label for="course1"> ADS</label><br>
+        <input type="checkbox" id="course2" name="course2" value="Jogos">
+        <label for="course2"> Jogos</label><br>
+        <input type="checkbox" id="course3" name="course3" value="Gestão de TI">
+        <label for="course3"> Gestão de TI</label><br>
+        <input type="checkbox" id="course4" name="course4" value="Banco de Dados">
+        <label for="course4"> Banco de Dados</label><br>
+        <label for="model">Modelo:</label><br>
+        <input type="radio" id="physical" name="model" value="Presencial" checked>
+        <label for="model">Presencial</label><br>
+        <input type="radio" id="virtual" name="model" value="EAD" checked>
+        <label for="model">EAD</label><br>
+        <input type="radio" id="semi_physical" name="model" value="Semi presencial" checked>
+        <label for="model"> Semi presencial</label><br>
+        <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
